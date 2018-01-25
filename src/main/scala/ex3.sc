@@ -5,7 +5,7 @@ import scala.collection.mutable
 // ex 3.1
 
 val n = 5
-val a = (for (i <- 1 to n) yield scala.util.Random.nextInt(n)).toArray
+val a = (for (_ <- 1 to n) yield scala.util.Random.nextInt(n)).toArray
 
 // ex 3.2
 var ar = Array(1, 2, 3, 4, 5)
